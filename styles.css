@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    max-width: 1356px;
+    margin: auto;
+    
+}
+h2, h4{
+    margin:  1% 0;
+}
+
+.navbar{
+    
+    margin: 0 10%;
+    border-bottom: 2px solid #8fb452;
+}
+.text{
+    
+    padding: 0 10%;
+}
+section{
+    
+    display: flex;
+    padding: 0 10%;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.about{
+    background-color: #8fb452;
+    width: 30%;
+    padding: 1%;
+    margin-right: 2.5%;
+}
+.projects{
+    background-color: #8fb452;
+    width:30%;
+    padding: 1%;
+    margin-right: 2.5%;
+}
+.hobbies{
+    background-color: #8fb452;
+    width:30%;
+    padding: 1%;
+}
+@media screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+    }
+    .about, .projects, .hobbies{
+        width: 100%;
+        margin: 2% 0;
+    }
+    
+
+  }
